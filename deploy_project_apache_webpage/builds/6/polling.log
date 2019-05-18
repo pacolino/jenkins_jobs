@@ -1,0 +1,11 @@
+Started on May 16, 2019 8:06:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 028b27df0f046cbfbce4a36eabfa7c47d32cc4a1 (refs/remotes/origin/master)
+using credential 60cb5bb0-a4f8-49ce-8a11-17a41aa36b70
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials user for ionut git repo
+ > git ls-remote -h https://github.com/pacolino/apps-shared_dir-apache.git # timeout=10
+Found 1 remote heads on https://github.com/pacolino/apps-shared_dir-apache.git
+[poll] Latest remote head revision on refs/heads/master is: 5e0200a51962fb01f394e37432402c98c30c2279
+Done. Took 0.75 sec
+Changes found

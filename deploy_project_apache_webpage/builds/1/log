@@ -1,0 +1,24 @@
+Started by user [8mha:////4KTrY2eqsXhUDBNDZABvua53znBCp06DIadvVzQHWaOwAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/dLi1CL9xJzUisS8lKJEAO4xXPnEAAAA[0malexandra
+Building in workspace /var/lib/jenkins/jobs/deploy_project_apache_webpage/workspace
+using credential 60cb5bb0-a4f8-49ce-8a11-17a41aa36b70
+Cloning the remote Git repository
+Cloning repository https://github.com/pacolino/apps-shared_dir-apache.git
+ > git init /var/lib/jenkins/jobs/deploy_project_apache_webpage/workspace # timeout=10
+Fetching upstream changes from https://github.com/pacolino/apps-shared_dir-apache.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials user for ionut git repo
+ > git fetch --tags --progress https://github.com/pacolino/apps-shared_dir-apache.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/pacolino/apps-shared_dir-apache.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/pacolino/apps-shared_dir-apache.git # timeout=10
+Fetching upstream changes from https://github.com/pacolino/apps-shared_dir-apache.git
+using GIT_ASKPASS to set credentials user for ionut git repo
+ > git fetch --tags --progress https://github.com/pacolino/apps-shared_dir-apache.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 5620cc311202b530ac5ce06fd5ba6b54aed5c7bb (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 5620cc311202b530ac5ce06fd5ba6b54aed5c7bb
+Commit message: "first update"
+First time build. Skipping changelog.
+Finished: SUCCESS

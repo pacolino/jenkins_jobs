@@ -1,0 +1,54 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description>deploy project directory structure</description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>linux_user</name>
+          <description>the user on which to deploy the project structure</description>
+          <defaultValue>dimache_ionut_gmail_com</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>linux_group</name>
+          <description>the group of the user on which to deploy project structure</description>
+          <defaultValue>1494322126</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>if [ -d apps ]
+then 
+sudo rm -rf apps
+mkdir -p apps/shared_dir/mysql
+mkdir -p apps/shared_dir/apache
+mkdir -p apps/docker_mysql
+mkdir -p apps/docker_apache
+sudo chown -R $linux_user:$linux_group  apps;
+else 
+mkdir -p apps/shared_dir/mysql
+mkdir -p apps/shared_dir/apache
+mkdir -p apps/docker_mysql
+mkdir -p apps/docker_apache
+sudo chown -R $linux_user:$linux_group  apps;
+fi
+sudo rm -rf /home/${linux_user}/apps
+sudo mv apps/ /home/${linux_user}</command>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>
