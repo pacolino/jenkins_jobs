@@ -1,0 +1,31 @@
+Started by user [8mha:////4KTrY2eqsXhUDBNDZABvua53znBCp06DIadvVzQHWaOwAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/dLi1CL9xJzUisS8lKJEAO4xXPnEAAAA[0malexandra
+Building in workspace /var/lib/jenkins/jobs/deploy_project_apache_docker/workspace
+using credential 60cb5bb0-a4f8-49ce-8a11-17a41aa36b70
+Cloning the remote Git repository
+Cloning repository https://github.com/alexandraiosim/server_apache.git
+ > git init /var/lib/jenkins/jobs/deploy_project_apache_docker/workspace # timeout=10
+Fetching upstream changes from https://github.com/alexandraiosim/server_apache.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials user for ionut git repo
+ > git fetch --tags --progress https://github.com/alexandraiosim/server_apache.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/alexandraiosim/server_apache.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/alexandraiosim/server_apache.git # timeout=10
+Fetching upstream changes from https://github.com/alexandraiosim/server_apache.git
+using GIT_ASKPASS to set credentials user for ionut git repo
+ > git fetch --tags --progress https://github.com/alexandraiosim/server_apache.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 1268f3daf31ba6131b61d8981ad77746e5a8d5f1 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1268f3daf31ba6131b61d8981ad77746e5a8d5f1
+Commit message: "first apache server"
+First time build. Skipping changelog.
+[workspace] $ /bin/sh -xe /tmp/jenkins6944054902357323592.sh
++ chown -R dimache_ionut_gmail_com:1494322126 Dockerfile apache-config.conf www
+chown: changing ownership of 'Dockerfile': Operation not permitted
+chown: changing ownership of 'apache-config.conf': Operation not permitted
+chown: changing ownership of 'www/index.php': Operation not permitted
+chown: changing ownership of 'www': Operation not permitted
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
