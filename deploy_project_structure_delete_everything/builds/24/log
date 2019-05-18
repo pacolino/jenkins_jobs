@@ -1,0 +1,12 @@
+Started by user [8mha:////4KTrY2eqsXhUDBNDZABvua53znBCp06DIadvVzQHWaOwAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/dLi1CL9xJzUisS8lKJEAO4xXPnEAAAA[0malexandra
+Building in workspace /var/lib/jenkins/jobs/deploy_project_structure_delete_everything/workspace
+[workspace] $ /bin/sh -xe /tmp/jenkins6702379177426720730.sh
++ [ -d apps ]
++ mkdir -p apps/shared_dir/mysql
++ mkdir -p apps/shared_dir/apache
++ mkdir -p apps/docker_mysql
++ mkdir -p apps/docker_apache/server_apache
++ sudo chown -R dimache_ionut_gmail_com:1494322126 apps
++ sudo rm -rf /home/dimache_ionut_gmail_com/apps
++ sudo mv apps/ /home/dimache_ionut_gmail_com
+Finished: SUCCESS

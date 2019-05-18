@@ -1,0 +1,30 @@
+Started by user [8mha:////4KTrY2eqsXhUDBNDZABvua53znBCp06DIadvVzQHWaOwAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/dLi1CL9xJzUisS8lKJEAO4xXPnEAAAA[0malexandra
+Building in workspace /var/lib/jenkins/jobs/deploy_project_apache_webpage/workspace
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+Warning: CredentialId "fa9b531f-c377-41a5-aea5-828852127b54" could not be found.
+Cloning the remote Git repository
+Cloning repository https://github.com/alexandraiosim/apps-shared_dir-apache.git
+ > git init /var/lib/jenkins/jobs/deploy_project_apache_webpage/workspace # timeout=10
+Fetching upstream changes from https://github.com/alexandraiosim/apps-shared_dir-apache.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/alexandraiosim/apps-shared_dir-apache.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/alexandraiosim/apps-shared_dir-apache.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/alexandraiosim/apps-shared_dir-apache.git # timeout=10
+Fetching upstream changes from https://github.com/alexandraiosim/apps-shared_dir-apache.git
+ > git fetch --tags --progress https://github.com/alexandraiosim/apps-shared_dir-apache.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision d01250a62399cb30b0c08c1a5575aeb382d43ddd (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d01250a62399cb30b0c08c1a5575aeb382d43ddd
+Commit message: "Update index.php"
+ > git rev-list --no-walk d01250a62399cb30b0c08c1a5575aeb382d43ddd # timeout=10
+[workspace] $ /bin/sh -xe /tmp/jenkins1433896432987706806.sh
++ sudo chown -R dimache_ionut_gmail_com:1494322126 index.php
++ sudo cp -r index.php /home/dimache_ionut_gmail_com/apps/shared_dir/apache/apps-shared_dir-apache/
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] done
+Finished: SUCCESS

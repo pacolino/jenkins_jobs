@@ -9,13 +9,13 @@
         <hudson.model.StringParameterDefinition>
           <name>linux_user</name>
           <description>linux OS user</description>
-          <defaultValue>dimache_ionut_gmail_com</defaultValue>
+          <defaultValue></defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
           <name>linux_group</name>
           <description>linux group for the OS user</description>
-          <defaultValue>1494322126</defaultValue>
+          <defaultValue></defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
       </parameterDefinitions>

@@ -1,11 +1,10 @@
-Started on May 18, 2019 1:48:00 PM
+Started on May 18, 2019 3:50:00 PM
 Using strategy: Default
 [poll] Last Built Revision: Revision d01250a62399cb30b0c08c1a5575aeb382d43ddd (refs/remotes/origin/master)
-using credential fa9b531f-c377-41a5-aea5-828852127b54
+Warning: CredentialId "fa9b531f-c377-41a5-aea5-828852127b54" could not be found.
  > git --version # timeout=10
-using GIT_ASKPASS to set credentials 
  > git ls-remote -h https://github.com/alexandraiosim/apps-shared_dir-apache.git # timeout=10
 Found 1 remote heads on https://github.com/alexandraiosim/apps-shared_dir-apache.git
-[poll] Latest remote head revision on refs/heads/master is: d01250a62399cb30b0c08c1a5575aeb382d43ddd - already built by 9
-Done. Took 0.7 sec
+[poll] Latest remote head revision on refs/heads/master is: d01250a62399cb30b0c08c1a5575aeb382d43ddd - already built by 13
+Done. Took 0.5 sec
 No changes
