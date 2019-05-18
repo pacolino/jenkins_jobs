@@ -1,0 +1,32 @@
+Started by an SCM change
+Building in workspace /var/lib/jenkins/workspace/deploy_project_apache_webpage
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+using credential fa9b531f-c377-41a5-aea5-828852127b54
+Cloning the remote Git repository
+Cloning repository https://github.com/alexandraiosim/apps-shared_dir-apache.git
+ > git init /var/lib/jenkins/workspace/deploy_project_apache_webpage # timeout=10
+Fetching upstream changes from https://github.com/alexandraiosim/apps-shared_dir-apache.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/alexandraiosim/apps-shared_dir-apache.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/alexandraiosim/apps-shared_dir-apache.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/alexandraiosim/apps-shared_dir-apache.git # timeout=10
+Fetching upstream changes from https://github.com/alexandraiosim/apps-shared_dir-apache.git
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/alexandraiosim/apps-shared_dir-apache.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision d01250a62399cb30b0c08c1a5575aeb382d43ddd (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d01250a62399cb30b0c08c1a5575aeb382d43ddd
+Commit message: "Update index.php"
+First time build. Skipping changelog.
+[deploy_project_apache_webpage] $ /bin/sh -xe /tmp/jenkins4988115663271789787.sh
++ sudo chown -R alexandra:alexandra index.php
++ sudo cp -r index.php /home/alexandra/apps/shared_dir/apache/apps-shared_dir-apache/
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] done
+Finished: SUCCESS

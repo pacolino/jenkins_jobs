@@ -9,24 +9,24 @@
         <hudson.model.StringParameterDefinition>
           <name>linux_user</name>
           <description>OS linux user</description>
-          <defaultValue>dimache_ionut_gmail_com</defaultValue>
+          <defaultValue>alexandra</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
           <name>linux_group</name>
           <description>group of os linux user</description>
-          <defaultValue>1494322126</defaultValue>
+          <defaultValue>alexandra</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
       </parameterDefinitions>
     </hudson.model.ParametersDefinitionProperty>
   </properties>
-  <scm class="hudson.plugins.git.GitSCM" plugin="git@3.9.3">
+  <scm class="hudson.plugins.git.GitSCM" plugin="git@3.10.0">
     <configVersion>2</configVersion>
     <userRemoteConfigs>
       <hudson.plugins.git.UserRemoteConfig>
-        <url>https://github.com/pacolino/apps-shared_dir-apache.git</url>
-        <credentialsId>60cb5bb0-a4f8-49ce-8a11-17a41aa36b70</credentialsId>
+        <url>https://github.com/alexandraiosim/apps-shared_dir-apache.git</url>
+        <credentialsId>fa9b531f-c377-41a5-aea5-828852127b54</credentialsId>
       </hudson.plugins.git.UserRemoteConfig>
     </userRemoteConfigs>
     <branches>

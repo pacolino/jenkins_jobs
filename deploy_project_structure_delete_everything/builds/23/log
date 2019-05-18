@@ -1,0 +1,12 @@
+Started by user [8mha:////4ChbR6/zahhdidHw41TSK+53Oi9HGC/2CtdMdP2gCgjqAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZ+/dLi1CL9xJzUisS8lKJEAP06gGTEAAAA[0mAlexandra Iosim
+Building in workspace /var/lib/jenkins/workspace/deploy_project_structure_delete_everything
+[deploy_project_structure_delete_everything] $ /bin/sh -xe /tmp/jenkins5916286154263352197.sh
++ [ -d apps ]
++ mkdir -p apps/shared_dir/mysql
++ mkdir -p apps/shared_dir/apache
++ mkdir -p apps/docker_mysql
++ mkdir -p apps/docker_apache
++ sudo chown -R alexandra:alexandra apps
++ sudo rm -rf /home/alexandra/apps
++ sudo mv apps/ /home/alexandra
+Finished: SUCCESS

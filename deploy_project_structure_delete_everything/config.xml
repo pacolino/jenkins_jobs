@@ -9,13 +9,13 @@
         <hudson.model.StringParameterDefinition>
           <name>linux_user</name>
           <description>the user on which to deploy the project structure</description>
-          <defaultValue>dimache_ionut_gmail_com</defaultValue>
+          <defaultValue>alexandra</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
           <name>linux_group</name>
           <description>the group of the user on which to deploy project structure</description>
-          <defaultValue>1494322126</defaultValue>
+          <defaultValue>alexandra</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
       </parameterDefinitions>
