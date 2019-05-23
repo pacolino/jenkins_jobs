@@ -9,13 +9,13 @@
         <hudson.model.StringParameterDefinition>
           <name>linux_user</name>
           <description>linux OS user</description>
-          <defaultValue></defaultValue>
+          <defaultValue>alexandra</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
           <name>linux_group</name>
           <description>linux group for the OS user</description>
-          <defaultValue></defaultValue>
+          <defaultValue>alexandra</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
       </parameterDefinitions>
