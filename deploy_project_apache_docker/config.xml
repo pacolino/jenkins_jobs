@@ -9,13 +9,13 @@
         <hudson.model.StringParameterDefinition>
           <name>linux_user</name>
           <description>linux OS user</description>
-          <defaultValue>alexandra</defaultValue>
+          <defaultValue>dimache_ionut_gmail_com</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
           <name>linux_group</name>
           <description>linux group for the OS user</description>
-          <defaultValue>alexandra</defaultValue>
+          <defaultValue>1494322126</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
       </parameterDefinitions>
@@ -47,10 +47,8 @@
   <builders>
     <hudson.tasks.Shell>
       <command>sudo chown -R ${linux_user}:${linux_group} *
-sudo cp -r . /home/${linux_user}/apps/docker_apache/server_apache
-cd /home/${linux_user}/apps/docker_apache/server_apache
-sudo docker build -t mysite /home/${linux_user}/apps/docker_apache/server_apache
-sudo docker run -p 8080:80 -d -v /home/${linux_user}/apps/shared_dir/apache:/var/www/site mysite
+sudo cp -r . /home/dimache_ionut_gmail_com/apps/docker_apache/server_apache
+
 </command>
     </hudson.tasks.Shell>
   </builders>

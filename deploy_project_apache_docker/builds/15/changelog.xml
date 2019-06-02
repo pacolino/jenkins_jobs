@@ -1,0 +1,23 @@
+commit 37a4191838a5ca6ffa5aa32a1e44f35f6d868473
+tree a7ea040beb68eb041d8bb8c011df1b6f9e0f56b4
+parent d95875dd8fa19da17de4e2f5182332090967ed4b
+author root <root@alexandra1.europe-west1-b.c.alexandra-234812.internal> 2019-06-02 19:26:18 +0000
+committer root <root@alexandra1.europe-west1-b.c.alexandra-234812.internal> 2019-06-02 19:26:18 +0000
+
+    best version so far
+
+
+
+:100644 100644 be6f35f57cb09d2b8c21c6a9617fd2b150b93a29 533975945f705cd1f64a8b21b5d0a18c6b5c05f2 M	Dockerfile
+:100644 100644 f89e60859638f6975427241d98d58fdfe89e76ff 2c93802bad1a832a6b6b3bfd91db344c31b5b5da M	apache-config.conf
+commit d95875dd8fa19da17de4e2f5182332090967ed4b
+tree 711ec2d0fd47ca4d43232796410e422ea9cbca26
+parent 1268f3daf31ba6131b61d8981ad77746e5a8d5f1
+author Paco <44975567+pacolino@users.noreply.github.com> 2019-05-23 12:15:43 +0200
+committer GitHub <noreply@github.com> 2019-05-23 12:15:43 +0200
+
+    Update Dockerfile
+
+
+
+:100644 100644 0cbd0ed5d34a9dbbb7a529c55f1ccc244d47d133 be6f35f57cb09d2b8c21c6a9617fd2b150b93a29 M	Dockerfile

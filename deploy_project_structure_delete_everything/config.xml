@@ -9,13 +9,13 @@
         <hudson.model.StringParameterDefinition>
           <name>linux_user</name>
           <description>the user on which to deploy the project structure</description>
-          <defaultValue>alexandra</defaultValue>
+          <defaultValue>dimache_ionut_gmail_com</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
           <name>linux_group</name>
           <description>the group of the user on which to deploy project structure</description>
-          <defaultValue>alexandra</defaultValue>
+          <defaultValue>1494322126</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
       </parameterDefinitions>
@@ -33,16 +33,16 @@
       <command>if [ -d apps ]
 then 
 sudo rm -rf apps
-mkdir -p apps/shared_dir/mysql
 mkdir -p apps/shared_dir/apache/apps-shared_dir-apache
-mkdir -p apps/docker_mysql
+mkdir -p apps/docker_mysql/server_mysql
 mkdir -p apps/docker_apache/server_apache
+mkdir -p apps/docker_php/server_php
 sudo chown -R $linux_user:$linux_group  apps;
 else 
-mkdir -p apps/shared_dir/mysql
 mkdir -p apps/shared_dir/apache/apps-shared_dir-apache
-mkdir -p apps/docker_mysql
+mkdir -p apps/docker_mysql/server_mysql
 mkdir -p apps/docker_apache/server_apache
+mkdir -p apps/docker_php/server_php
 sudo chown -R $linux_user:$linux_group  apps;
 fi
 sudo rm -rf /home/${linux_user}/apps

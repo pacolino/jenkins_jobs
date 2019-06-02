@@ -1,0 +1,33 @@
+Started by an SCM change
+Started by an SCM change
+Building in workspace /var/lib/jenkins/jobs/deploy_project_apache_webpage/workspace
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+Warning: CredentialId "fa9b531f-c377-41a5-aea5-828852127b54" could not be found.
+Cloning the remote Git repository
+Cloning repository https://github.com/alexandraiosim/apps-shared_dir-apache.git
+ > git init /var/lib/jenkins/jobs/deploy_project_apache_webpage/workspace # timeout=10
+Fetching upstream changes from https://github.com/alexandraiosim/apps-shared_dir-apache.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/alexandraiosim/apps-shared_dir-apache.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/alexandraiosim/apps-shared_dir-apache.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/alexandraiosim/apps-shared_dir-apache.git # timeout=10
+Fetching upstream changes from https://github.com/alexandraiosim/apps-shared_dir-apache.git
+ > git fetch --tags --progress https://github.com/alexandraiosim/apps-shared_dir-apache.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision f70203e5541285b04ea2520916f12e7f8e8e6ff0 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f70203e5541285b04ea2520916f12e7f8e8e6ff0
+Commit message: "Update index_2.php"
+ > git rev-list --no-walk 281f12bba4c9f6a244182aad6d94d3d0e4e34cd9 # timeout=10
+[workspace] $ /bin/sh -xe /tmp/jenkins2147159755066594769.sh
++ sudo chown -R : index.php index_2.php sql.php
++ sudo cp -r . /home//apps/shared_dir/apache/apps-shared_dir-apache/
+cp: cannot create directory '/home//apps/shared_dir/apache/apps-shared_dir-apache/': No such file or directory
+Build step 'Execute shell' marked build as failure
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] done
+Finished: FAILURE

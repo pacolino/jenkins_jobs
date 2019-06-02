@@ -9,13 +9,13 @@
         <hudson.model.StringParameterDefinition>
           <name>linux_user</name>
           <description>OS linux user</description>
-          <defaultValue>alexandra</defaultValue>
+          <defaultValue>dimache_ionut_gmail_com</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
           <name>linux_group</name>
           <description>group of os linux user</description>
-          <defaultValue>alexandra</defaultValue>
+          <defaultValue>1494322126</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
       </parameterDefinitions>
@@ -26,7 +26,7 @@
     <userRemoteConfigs>
       <hudson.plugins.git.UserRemoteConfig>
         <url>https://github.com/alexandraiosim/apps-shared_dir-apache.git</url>
-        <credentialsId>fa9b531f-c377-41a5-aea5-828852127b54</credentialsId>
+        <credentialsId>60cb5bb0-a4f8-49ce-8a11-17a41aa36b70</credentialsId>
       </hudson.plugins.git.UserRemoteConfig>
     </userRemoteConfigs>
     <branches>
@@ -42,15 +42,7 @@
   <disabled>false</disabled>
   <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
   <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
-  <triggers>
-    <com.cloudbees.jenkins.GitHubPushTrigger plugin="github@1.29.4">
-      <spec></spec>
-    </com.cloudbees.jenkins.GitHubPushTrigger>
-    <hudson.triggers.SCMTrigger>
-      <spec>* * * * *</spec>
-      <ignorePostCommitHooks>false</ignorePostCommitHooks>
-    </hudson.triggers.SCMTrigger>
-  </triggers>
+  <triggers/>
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
