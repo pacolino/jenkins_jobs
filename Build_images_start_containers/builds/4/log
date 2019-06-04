@@ -1,0 +1,13 @@
+Started by user [8mha:////4KTrY2eqsXhUDBNDZABvua53znBCp06DIadvVzQHWaOwAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/dLi1CL9xJzUisS8lKJEAO4xXPnEAAAA[0malexandra
+Building in workspace /var/lib/jenkins/jobs/start_app_and_apply_mysql_dump/workspace
+[workspace] $ /bin/sh -xe /tmp/jenkins330756987082115245.sh
++ sudo cp /home/dimache_ionut_gmail_com/scripts/docker-compose.yml /home/dimache_ionut_gmail_com/apps
++ sudo docker-compose up
+
+        Can't find a suitable configuration file in this directory or any
+        parent. Are you in the right directory?
+
+        Supported filenames: docker-compose.yml, docker-compose.yaml
+        
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

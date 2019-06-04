@@ -30,7 +30,8 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>if [ -d apps ]
+      <command>###Deploy project structure ###
+if [ -d apps ]
 then 
 sudo rm -rf apps
 mkdir -p apps/shared_dir/apache/apps-shared_dir-apache
@@ -46,7 +47,9 @@ mkdir -p apps/docker_php/server_php
 sudo chown -R $linux_user:$linux_group  apps;
 fi
 sudo rm -rf /home/${linux_user}/apps
-sudo mv apps/ /home/${linux_user}</command>
+sudo mv apps/ /home/${linux_user}
+###Clean docker environment###
+sudo /home/${linux_user}/scripts/clean_docker_all.sh</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>

@@ -1,0 +1,43 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>linux_user</name>
+          <description></description>
+          <defaultValue>dimache_ionut_gmail_com</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>group_user</name>
+          <description></description>
+          <defaultValue>1494322126</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>###Build images and start containers
+sudo cp /home/${linux_user}/scripts/docker-compose.yml /home/${linux_user}/apps
+cd /home/${linux_user}/apps
+sudo docker-compose up -d
+###Apply mysql dump to DB###
+###sudo docker exec -i apps_mysql_1  mysql -D mysql -u root -prootpassword mysql &lt; /home/dimache_ionut_gmail_com/apps/docker_mysql/server_mysql/db_conf_backup.sql</command>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

@@ -1,0 +1,34 @@
+Started by upstream project "[8mha:////4EM+BG622zU0xWiDh63BUQrigHYHwlDfWxB/w8syGcSsAAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyJEgY5/az8JP2CzIJUoI2p8SmpBTn5lfFFpXnxJanFJfoA+6D4yNMAAAA=[0mpipeline_deploy_run_test" build number [8mha:////4GhDEy4a4n21rsMTST+O4Tn3tVxdU7eQ96IWdQTogpGVAAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBnn9rPwk/YLMglSgjanxKakFOfmV8UWlefElqcUl+sYAg6qO/NQAAAA=[0m3
+originally caused by:
+ Started by user [8mha:////4KTrY2eqsXhUDBNDZABvua53znBCp06DIadvVzQHWaOwAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/dLi1CL9xJzUisS8lKJEAO4xXPnEAAAA[0malexandra
+Building in workspace /var/lib/jenkins/jobs/deploy_project_apache_webpage/workspace
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+using credential 60cb5bb0-a4f8-49ce-8a11-17a41aa36b70
+Cloning the remote Git repository
+Cloning repository https://github.com/alexandraiosim/apps-shared_dir-apache.git
+ > git init /var/lib/jenkins/jobs/deploy_project_apache_webpage/workspace # timeout=10
+Fetching upstream changes from https://github.com/alexandraiosim/apps-shared_dir-apache.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials user for ionut git repo
+ > git fetch --tags --progress https://github.com/alexandraiosim/apps-shared_dir-apache.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/alexandraiosim/apps-shared_dir-apache.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/alexandraiosim/apps-shared_dir-apache.git # timeout=10
+Fetching upstream changes from https://github.com/alexandraiosim/apps-shared_dir-apache.git
+using GIT_ASKPASS to set credentials user for ionut git repo
+ > git fetch --tags --progress https://github.com/alexandraiosim/apps-shared_dir-apache.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 4c7afaeecec4a87f05f1f6bc31c74b4d52b860a6 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4c7afaeecec4a87f05f1f6bc31c74b4d52b860a6
+Commit message: "best version so far"
+ > git rev-list --no-walk 4c7afaeecec4a87f05f1f6bc31c74b4d52b860a6 # timeout=10
+[workspace] $ /bin/sh -xe /tmp/jenkins3179091364306951648.sh
++ sudo chown -R dimache_ionut_gmail_com:1494322126 index.php index2.php index_2.php sql.php
++ sudo cp -r . /home/dimache_ionut_gmail_com/apps/shared_dir/apache/apps-shared_dir-apache/
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] done
+Finished: SUCCESS

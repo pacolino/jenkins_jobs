@@ -1,0 +1,9 @@
+Started by upstream project "[8mha:////4EM+BG622zU0xWiDh63BUQrigHYHwlDfWxB/w8syGcSsAAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyJEgY5/az8JP2CzIJUoI2p8SmpBTn5lfFFpXnxJanFJfoA+6D4yNMAAAA=[0mpipeline_deploy_run_test" build number [8mha:////4Do3kPsTpM3uFk1uAZt5n7leM+p+F8KzwjWaCmErxZkHAAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBnn9rPwk/YLMglSgjanxKakFOfmV8UWlefElqcUl+iYAID/qYtQAAAA=[0m4
+originally caused by:
+ Started by user [8mha:////4KTrY2eqsXhUDBNDZABvua53znBCp06DIadvVzQHWaOwAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/dLi1CL9xJzUisS8lKJEAO4xXPnEAAAA[0malexandra
+Building in workspace /var/lib/jenkins/jobs/start_app_and_apply_mysql_dump/workspace
+[workspace] $ /bin/sh -xe /tmp/jenkins7548079160057139286.sh
++ cp /home/dimache_ionut_gmail_co/scripts/docker-compose.yml /home/dimache_ionut_gmail_co/apps
+cp: cannot stat '/home/dimache_ionut_gmail_co/scripts/docker-compose.yml': No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

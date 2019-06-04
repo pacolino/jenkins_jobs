@@ -1,0 +1,31 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.32">
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.66">
+    <script>stage(&apos;Clean env and deploy project structure&apos;) {
+  build job:&apos;deploy_project_structure_delete_everything&apos;
+}
+stage(&apos;Deploy apache docker files&apos;) {
+  build &apos;deploy_project_apache_docker&apos;
+}
+stage(&apos;Deploy php docker files&apos;) {
+    build &apos;deploy_project_php_docker&apos;
+}
+stage (&apos;Deploy php webpage&apos;) {
+    build &apos;deploy_project_apache_webpage&apos;
+}
+stage (&apos;Deploy mysql dump&apos;) {
+    build &apos;deploy_project_mysql_docker&apos;
+}
+stage (&apos;Build app-Start app&apos;) {
+    build &apos;Build_images_start_containers&apos;
+}
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>
