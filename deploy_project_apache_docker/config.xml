@@ -47,7 +47,7 @@
   <builders>
     <hudson.tasks.Shell>
       <command>sudo chown -R ${linux_user}:${linux_group} *
-sudo cp -r . /home/dimache_ionut_gmail_com/apps/docker_apache/server_apache
+sudo cp -r . /home/${linux_user}/apps/docker_apache/server_apache
 
 </command>
     </hudson.tasks.Shell>

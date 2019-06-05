@@ -1,0 +1,8 @@
+Started by user [8mha:////4KTrY2eqsXhUDBNDZABvua53znBCp06DIadvVzQHWaOwAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/dLi1CL9xJzUisS8lKJEAO4xXPnEAAAA[0malexandra
+Building in workspace /var/lib/jenkins/jobs/Apply_DB_Dump/workspace
+[workspace] $ /bin/sh -xe /tmp/jenkins191295872271798924.sh
++ sudo docker exec -i apps_mysql_1 mysql -D mysql -u root -prootpassword mysql
+Warning: Using a password on the command line interface can be insecure.
++ sudo docker exec -i zabbix-mysql-database mysql -u zabbix -pzabbixpw zabbix
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Finished: SUCCESS

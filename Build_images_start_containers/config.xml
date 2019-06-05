@@ -30,12 +30,14 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>###Build images and start containers
+      <command>###Build images and start containers for Apache-php-mysql
 sudo cp /home/${linux_user}/scripts/docker-compose.yml /home/${linux_user}/apps
 cd /home/${linux_user}/apps
 sudo docker-compose up -d
-###Apply mysql dump to DB###
-###sudo docker exec -i apps_mysql_1  mysql -D mysql -u root -prootpassword mysql &lt; /home/dimache_ionut_gmail_com/apps/docker_mysql/server_mysql/db_conf_backup.sql</command>
+###Build images and start containers for Zabbix
+sudo /home/${linux_user}/apps/docker_zabbix/server_zabbix/docker_zabbix.sh
+
+</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>

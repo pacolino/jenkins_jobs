@@ -1,0 +1,23 @@
+Started by upstream project "[8mha:////4EM+BG622zU0xWiDh63BUQrigHYHwlDfWxB/w8syGcSsAAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyJEgY5/az8JP2CzIJUoI2p8SmpBTn5lfFFpXnxJanFJfoA+6D4yNMAAAA=[0mpipeline_deploy_run_test" build number [8mha:////4HQE/aSKwMdebi1lyHxejmk9bTpZVDyZDV/EEVgcSYaTAAAAqx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYF/az8JP2CzIJUoI2p8SmpBTn5lfFFpXnxJanFJfqGhgBs21P81QAAAA==[0m11
+originally caused by:
+ Started by user [8mha:////4KTrY2eqsXhUDBNDZABvua53znBCp06DIadvVzQHWaOwAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/dLi1CL9xJzUisS8lKJEAO4xXPnEAAAA[0malexandra
+Building in workspace /var/lib/jenkins/jobs/deploy_project_mysql_docker/workspace
+using credential 60cb5bb0-a4f8-49ce-8a11-17a41aa36b70
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/alexandraiosim/server_mysql.git # timeout=10
+Fetching upstream changes from https://github.com/alexandraiosim/server_mysql.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials user for ionut git repo
+ > git fetch --tags --progress https://github.com/alexandraiosim/server_mysql.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 8923420bec807401fd17937d4ed50b43242b4345 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8923420bec807401fd17937d4ed50b43242b4345
+Commit message: "db conf v1"
+ > git rev-list --no-walk 8923420bec807401fd17937d4ed50b43242b4345 # timeout=10
+[workspace] $ /bin/sh -xe /tmp/jenkins4935140525000320807.sh
++ sudo chown -R dimache_ionut_gmail_com:1494322126 README.md db_conf_backup.sql
++ sudo cp -r . /home/dimache_ionut_gmail_com/apps/docker_mysql/server_mysql/
+Finished: SUCCESS

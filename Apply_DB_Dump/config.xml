@@ -30,7 +30,8 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command> sudo docker exec -i apps_mysql_1  mysql -D mysql -u root -prootpassword mysql &lt; /home/${linux_user}/apps/docker_mysql/server_mysql/db_conf_backup.sql</command>
+      <command> sudo docker exec -i apps_mysql_1  mysql -D mysql -u root -prootpassword mysql &lt; /home/${linux_user}/apps/docker_mysql/server_mysql/db_conf_backup.sql
+ sudo docker exec -i zabbix-mysql-database mysql -u zabbix -pzabbixpw zabbix &lt; /home/${linux_user}/apps/docker_mysql/server_mysql/zabbixdb.sql</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>

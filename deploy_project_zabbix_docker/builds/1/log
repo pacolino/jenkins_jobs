@@ -1,0 +1,30 @@
+Started by upstream project "[8mha:////4EM+BG622zU0xWiDh63BUQrigHYHwlDfWxB/w8syGcSsAAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyJEgY5/az8JP2CzIJUoI2p8SmpBTn5lfFFpXnxJanFJfoA+6D4yNMAAAA=[0mpipeline_deploy_run_test" build number [8mha:////4Hj/cVctxXZNR2J8bAmR8cyKgEt5qE2EDI95j2rXqZRfAAAAqx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYF/az8JP2CzIJUoI2p8SmpBTn5lfFFpXnxJanFJfqGRgDWilpl1QAAAA==[0m12
+originally caused by:
+ Started by user [8mha:////4KTrY2eqsXhUDBNDZABvua53znBCp06DIadvVzQHWaOwAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/dLi1CL9xJzUisS8lKJEAO4xXPnEAAAA[0malexandra
+Building in workspace /var/lib/jenkins/jobs/deploy_project_zabbix_docker/workspace
+using credential 60cb5bb0-a4f8-49ce-8a11-17a41aa36b70
+Cloning the remote Git repository
+Cloning repository https://github.com/alexandraiosim/server_zabbix.git
+ > git init /var/lib/jenkins/jobs/deploy_project_zabbix_docker/workspace # timeout=10
+Fetching upstream changes from https://github.com/alexandraiosim/server_zabbix.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials user for ionut git repo
+ > git fetch --tags --progress https://github.com/alexandraiosim/server_zabbix.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/alexandraiosim/server_zabbix.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/alexandraiosim/server_zabbix.git # timeout=10
+Fetching upstream changes from https://github.com/alexandraiosim/server_zabbix.git
+using GIT_ASKPASS to set credentials user for ionut git repo
+ > git fetch --tags --progress https://github.com/alexandraiosim/server_zabbix.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 4d48c08a0973e56742c4c68183225a551c4268a3 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4d48c08a0973e56742c4c68183225a551c4268a3
+Commit message: "good zabbix docker images and conf"
+First time build. Skipping changelog.
+[workspace] $ /bin/sh -xe /tmp/jenkins4093043940735035185.sh
++ sudo chown -R dimache_ionut_gmail_com@alexandra1:1494322126 README.md docker_zabbix.sh
+chown: invalid user: ‘dimache_ionut_gmail_com@alexandra1:1494322126’
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

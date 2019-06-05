@@ -1,0 +1,57 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>pipeline_deploy_run_test</upstreamProject>
+            <upstreamUrl>job/pipeline_deploy_run_test/</upstreamUrl>
+            <upstreamBuild>16</upstreamBuild>
+            <upstreamCauses>
+              <hudson.model.Cause_-UserIdCause>
+                <userId>alexandra</userId>
+              </hudson.model.Cause_-UserIdCause>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.support.steps.build.BuildUpstreamNodeAction plugin="pipeline-build-step@2.8">
+      <upstreamNodeId>5</upstreamNodeId>
+      <upstreamRunId>pipeline_deploy_run_test#16</upstreamRunId>
+    </org.jenkinsci.plugins.workflow.support.steps.build.BuildUpstreamNodeAction>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>linux_user</name>
+          <description>the user on which to deploy the project structure</description>
+          <value>dimache_ionut_gmail_com</value>
+        </hudson.model.StringParameterValue>
+        <hudson.model.StringParameterValue>
+          <name>linux_group</name>
+          <description>the group of the user on which to deploy project structure</description>
+          <value>1494322126</value>
+        </hudson.model.StringParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>linux_user</string>
+        <string>linux_group</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+  </actions>
+  <queueId>174</queueId>
+  <timestamp>1559757384846</timestamp>
+  <startTime>1559757384851</startTime>
+  <result>SUCCESS</result>
+  <duration>2325</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/jobs/deploy_project_structure_delete_everything/workspace</workspace>
+  <hudsonVersion>2.164.2</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

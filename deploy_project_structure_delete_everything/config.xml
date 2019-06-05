@@ -37,12 +37,14 @@ sudo rm -rf apps
 mkdir -p apps/shared_dir/apache/apps-shared_dir-apache
 mkdir -p apps/docker_mysql/server_mysql
 mkdir -p apps/docker_apache/server_apache
+mkdir -p apps/docker_zabbix/server_zabbix
 mkdir -p apps/docker_php/server_php
 sudo chown -R $linux_user:$linux_group  apps;
 else 
 mkdir -p apps/shared_dir/apache/apps-shared_dir-apache
 mkdir -p apps/docker_mysql/server_mysql
 mkdir -p apps/docker_apache/server_apache
+mkdir -p apps/docker_zabbix/server_zabbix
 mkdir -p apps/docker_php/server_php
 sudo chown -R $linux_user:$linux_group  apps;
 fi

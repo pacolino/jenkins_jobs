@@ -17,6 +17,9 @@ stage(&apos;Deploy php docker files&apos;) {
 stage (&apos;Deploy php webpage&apos;) {
     build &apos;deploy_project_apache_webpage&apos;
 }
+stage (&apos;Deploy zabbix docker files&apos;) {
+    build &apos;deploy_project_zabbix_docker&apos;
+}
 stage (&apos;Deploy mysql dump&apos;) {
     build &apos;deploy_project_mysql_docker&apos;
 }

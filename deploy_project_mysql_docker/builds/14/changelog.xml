@@ -1,0 +1,11 @@
+commit 5c709a2c650dcb6c2d5d92f0faf1727a332dfdcc
+tree 0993f386cdcb84f3e3f6ad7ea4774ac9517ed7a1
+parent 99d99414fba0dd2e6fdd78925a20618470454f57
+author root <root@alexandra1.europe-west1-b.c.alexandra-234812.internal> 2019-06-05 18:05:09 +0000
+committer root <root@alexandra1.europe-west1-b.c.alexandra-234812.internal> 2019-06-05 18:05:09 +0000
+
+    better version
+
+
+
+:100644 100644 6adaac9fd4c049912784c24e4f0d716b7bacb051 da9008ddcfe93ee36058158abdb38dee50c501d0 M	zabbixdb.sql
