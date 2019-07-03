@@ -25,7 +25,7 @@
     <configVersion>2</configVersion>
     <userRemoteConfigs>
       <hudson.plugins.git.UserRemoteConfig>
-        <url>https://github.com/alexandraiosim/server_mysql.git</url>
+        <url>https://github.com/pacolino/server_mysql.git</url>
         <credentialsId>60cb5bb0-a4f8-49ce-8a11-17a41aa36b70</credentialsId>
       </hudson.plugins.git.UserRemoteConfig>
     </userRemoteConfigs>
