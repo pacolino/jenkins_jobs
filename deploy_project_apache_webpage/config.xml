@@ -9,7 +9,7 @@
         <hudson.model.StringParameterDefinition>
           <name>linux_user</name>
           <description>OS linux user</description>
-          <defaultValue>pacolino</defaultValue>
+          <defaultValue>dimache_ionut_gmail_com</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
@@ -25,7 +25,7 @@
     <configVersion>2</configVersion>
     <userRemoteConfigs>
       <hudson.plugins.git.UserRemoteConfig>
-        <url>https://github.com/alexandraiosim/apps-shared_dir-apache.git</url>
+        <url>https://github.com/pacolino/apps-shared_dir-apache.git</url>
         <credentialsId>60cb5bb0-a4f8-49ce-8a11-17a41aa36b70</credentialsId>
       </hudson.plugins.git.UserRemoteConfig>
     </userRemoteConfigs>
