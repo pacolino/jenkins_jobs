@@ -9,7 +9,7 @@
         <hudson.model.StringParameterDefinition>
           <name>linux_user</name>
           <description>OS linux user</description>
-          <defaultValue>dimache_ionut_gmail_com</defaultValue>
+          <defaultValue>pacolino</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
